@@ -9,27 +9,30 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="scripts.js"></script>
 </head>
-<h1>AKAN NAMES WEBPAGE</h1>
-<p></p>
-<div class="container">
-    <label>ENTER YOUR BIRTHDATE</label><br>
 
-    <input id="month" type="number" placeholder="Month" required>
-    <input id="day" type="number" placeholder="Day" required>
-    <input id="year" type="number" placeholder="Year" required><br>
+<body>
+    <h1>AKAN NAMES WEBPAGE</h1>
+    <p></p>
+    <div class="container">
+        <label>ENTER YOUR BIRTHDATE</label><br>
 
-    <label>Select your Gender</label><br>
-    <select id="selector">
+        <input id="month" type="number" placeholder="Month" required>
+        <input id="day" type="number" placeholder="Day" required>
+        <input id="year" type="number" placeholder="Year" required><br>
+
+        <label>Select your Gender</label><br>
+        <select id="selector">
         <option>GENDER</option>
         <option value="female">FEMALE</option>
         <option value="male">MALE</option>
     </select><br>
 
-    <button onclick="akanNameFunction()">SUBMIT</button>
+        <button onclick="akanName()">SUBMIT</button>
 
-</div>
+    </div>
+    <p id="result"></p>
+    <p id="ghanian"></p>
 
-<body>
 
 </body>
 
