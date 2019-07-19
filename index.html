@@ -3,39 +3,46 @@
 
 <head>
 
-    <title>AKAN NAME WEBPAGE</title>
+    <title>AKAN NAMES</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="js/scripts.js"></script>
 </head>
 
 <body>
-    <h1 class="jumbotron">AKAN NAMES WEBPAGE</h1>
-    <p>The Akan people of Ghana frequently name their children regarding the day of the week they were born,<br> and the order in which they were born.<br> These "day names" have further meanings concerning the soul and character of the person.<br> Middle
-        names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+    <h1 class="jumbotron start">DO YOU KNOW YOUR AKAN NAME? </h1>
+    <h2>CHECK IT OUT HERE!</h2>
+    <p>The Akan people of Ghana frequently name their children regarding the day of the week they were born and the order in which they were born.<br> These "day names" have further meanings concerning the soul and character of the person,middle names have
+        considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. Most people do know when their birthdays are, but some might not know what day of the week they were born.<br> Luckily for us, there are ways
+        to calculate the day of the week from a specific date.<br> That`s the reason of this Web-Application, i create it so that it helps Ghanians to get easly the first name of their children.</p><br>
+
 
     <div class="container">
-        <form id="akan">
+        <div id="akan">
             <label>ENTER YOUR BIRTHDATE</label><br>
-
+        </div>
+        <div id="date">
             <input id="month" type="number" placeholder="Month" required>
             <input id="day" type="number" placeholder="Day" required>
             <input id="year" type="number" placeholder="Year" required><br>
-
+        </div>
+        <div id="choice">
             <label>Select your Gender</label><br>
-            <select id="selector">
+        </div>
+        <select id="selector"><br>
             <option>GENDER</option>
             <option value="female">Female</option>
             <option value="male">Male</option>
             </select><br>
 
-            <button onclick="akanName()">SUBMIT</button>
-        </form>
+        <button onclick="akanName()">SUBMIT</button>
+
     </div>
-    <p id="result"></p>
-    <p id="ghanian"></p>
+    <h4>AND YOUR NAME IS:</h4>
+    <h3 id="ghanian"></h3>
+
 
 
 </body>
 
-</html>>
+</html>
