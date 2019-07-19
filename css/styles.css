@@ -52,12 +52,25 @@ input::placeholder {
     text-align: center;
 }
 
+input {
+    font-size: 20px;
+}
+
 #date {
     color: solid black;
 }
 
 button:hover {
     background-color: blue;
+}
+
+button {
+    font-size: 25px;
+}
+
+#selector {
+    font-size: 25px;
+    color: black;
 }
 
 h3 {
@@ -72,4 +85,8 @@ h4 {
     color: wheat;
     font-size: 30px;
     font-style: italic;
+}
+
+.middle {
+    text-align: center;
 }
