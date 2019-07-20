@@ -8,3 +8,6 @@
 * Enter the Birthdate information.
 * Select the Gender.
 * Click the button Submit.
+### Input Example
+* Month, Day ,Year.
+
