@@ -11,5 +11,7 @@
 ### Input Example
 * Month, Day ,Year.
 * Female, Male.
+### Output Example
+* Akan Name
 
 
