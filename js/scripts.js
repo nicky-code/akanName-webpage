@@ -6,7 +6,6 @@
         var dayoftheweek = (CC / 4 - 2 * CC - 1 + 5 * YY / 4 + (26 * (MM + 1) / 10) + DD) % 7;
         console.log(dayoftheweek);
 
-
         var men = ["Kwasi", "Kwaduo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         var women = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
         var selection = document.getElementById('selector').value;
