@@ -10,4 +10,6 @@
 * Click the button Submit.
 ### Input Example
 * Month, Day ,Year.
+* Female, Male.
+
 
