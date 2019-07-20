@@ -23,6 +23,7 @@ h1 {
     color: brown;
     text-align: center;
     font-size: 60px;
+    text-shadow: 10px;
 }
 
 p {
@@ -65,11 +66,12 @@ button:hover {
 }
 
 button {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 #selector {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
